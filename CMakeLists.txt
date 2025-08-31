@@ -7,7 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS_RELEASE "-O0")
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
-
 add_executable(dumper 
     main.cpp
     src/schema/schema.cpp
@@ -20,3 +19,4 @@ target_link_libraries(dumper PRIVATE
     secur32 
     user32
 )
+
